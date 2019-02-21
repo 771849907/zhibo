@@ -1,0 +1,453 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style-type:none;}
+#head
+{
+	width:100%;
+	height:70px;
+	background-color:#9e9798;
+	/*background-color:rgba(255,212,45);*/
+	z-index:9998;
+	position:fixed;}
+	
+.logo{
+	width:134px;
+	height:50px;
+	margin-left:150px;
+	margin-top:6px;
+	float:left;}
+
+/*---------------------------导航-------------------------------*/
+.nav{
+	width:160px;
+	height:40px;
+	float:left;
+	margin-left:120px;
+	margin-top:20px;}
+		
+.nav2 li
+{
+	float:left;
+	text-align:center;
+	position:relative;}
+
+.nav2 li a{
+	display:block;
+	text-decoration:none;
+	width:80px;
+	height:40px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	line-height:40px;
+	/*border:1px solid #fff;*/
+	color:#000;
+	background:#9e9798;}
+
+.nav2 a:hover{
+	color:#fff;
+	background:}
+	
+.nav2 li ul{
+	display:none; /*二级导航的样式*/
+    position:absolute; 
+    top:30px;
+    font-size:16px;}
+
+/*---------------------------搜索-------------------------------*/
+form {
+  position: relative;
+  width: 350px;
+}
+
+/*.search {background: #7BA7AB;}*/
+.search:after {content:""; clear:both; display:table}
+.search form {
+  width: auto;
+  float: left;
+  margin-left: 200px;
+  margin-top:23px;
+}
+.search input {
+  width: 300px;
+  height: 28px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.search input:focus {
+  width: 350px;
+}
+.search button {
+  width: 42px;
+  height: 30px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 1px;
+  right: 0;
+}
+.search button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+/*---------------------------登录-------------------------------*/
+.login{
+	width:40px;
+	height:42px;
+	position:absolute;
+	left:1450px;
+	top:10px;
+	
+	}
+	
+.login a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#000;}
+	
+.login a:hover{
+	color:#fff;}
+	
+
+
+/*---------------------------注册-------------------------------*/
+.register{
+	width:35px;
+	height:42px;
+	position:absolute;
+	left:1492px;
+	top:10px;
+	}
+	
+.register a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:"宋体";
+	font-size:12px;
+	color:#000;}
+	
+.register a:hover{
+	color:#fff;}
+	
+	
+	
+/*---------------------------分类-------------------------------*/
+#classification{
+	width:100%;
+	height:130px;
+	background-color:#f5e9e9;}
+
+ul{
+		list-style:none;/*去掉序列前面原点*/
+		}
+	
+	
+.cla{
+	width:1710px;
+	height:130px;
+	margin-left:auto;
+	margin-right:auto;}
+	
+.cla ul li{
+	float:left;
+	width:320px;
+	height:90px;
+	margin-top:30px;
+	margin-left:86px;}
+	
+.cla ul li a{
+	display:block;
+	text-decoration:none;
+	width:70px;
+	height:35px;
+	float:left;
+	margin-left:10px;
+	text-align:center;
+	font-family:"微软雅黑";
+	font:16px;
+	color:#000;
+	line-height:35px;
+	}
+.cla ul li a:hover{
+	color:#9e9798;}
+
+/*---------------------------热播影院-------------------------------*/
+.title{
+	width:1410x;
+	height:30px;
+	/*background-color:#633;*/
+	font-size:23px;
+	text-align:left;
+	}
+	
+.title span a{
+	width:30px;
+	height:20px;
+	/*background:#666;*/
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#666;
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+	}
+
+
+#hotspot{
+	width:1410px;
+	height:480px;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:50px;}
+	
+.hotspot-slider{
+	width:450px;
+	height:380px;
+	margin-left:14px;
+	margin-top:20px;
+	float:left;}
+	
+.hotspot-vedio ul li{
+	float:left;
+	width:218px;
+	height:180px;
+	margin-left:14px;
+	margin-top:20px;
+	background:#FFF;}
+
+.hotspot-vedio ul li a{
+	display:block;
+	text-decoration:none;
+	width:218px;
+	height:180px;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#000;
+	overflow:hidden;}
+	
+.hotspot-vedio ul li a:hover{
+	color:#9e9798;}
+	
+.hotspot-vedio img{
+	cursor:pointer;
+	transition:all 0.6s;}
+.hotspot-vedio img:hover{
+	transform:scale(1.08);	}
+	
+.game{
+	color:#e68614;
+	float:right;}
+
+.live-user{
+	float:left;
+	color:#999;
+	line-height:20px;}
+	
+	
+/*---------------------------热播电影-------------------------------*/
+#First-broadcast{
+	width:1410px;
+	height:390px;
+	/*background:#096;*/
+	margin-left:auto;
+	margin-right:auto;}
+	
+.First-broadcast-vedio ul li{
+	float:left;
+	width:186px;
+	height:290px;
+	margin-left:14px;
+	margin-top:20px;
+	/*background:#30C;*/}
+	
+.First-broadcast-vedio ul li a{
+	display:block;
+	text-decoration:none;
+	width:186px;
+	height:240px;
+	font-family:"微软雅黑";
+	font-size:13px;
+	/*background:#000;*/
+	color:#000;
+	}
+
+.score{
+	float:right;
+	color:#e68614;
+	font-size:18px;}
+	
+.First-broadcast-vedio ul li a span{
+	font-size:15px;
+	font-family:"微软雅黑";
+	line-height:29px;}
+
+.First-broadcast-vedio ul li span a{
+	display:block;
+	text-decoration:none;
+	font-size:12px;
+	color:#999;
+	float:right;}
+
+.First-broadcast-vedio ul li a:hover{
+	color:#9e9798;}
+
+
+
+/*---------------------------排行榜-------------------------------*/
+#series{
+	width:1410px;
+	height:390px;
+	margin-left:auto;
+	margin-right:auto;}
+	
+.title a{
+	width:30px;
+	height:20px;
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#666;
+	margin-left:15px;
+	margin-top:10px;}
+	
+.series-vedio ul li{
+	float:left;
+	width:186px;
+	height:290px;
+	margin-left:14px;
+	margin-top:20px;}
+	
+	
+.series-vedio ul li a{
+	display:block;
+	text-decoration:none;
+	width:186px;
+	height:240px;
+	font-family:"微软雅黑";
+	font-size:13px;
+	color:#000;
+	}
+
+
+.score{
+	float:right;
+	color:#e68614;
+	font-size:18px;}
+
+	
+.series-vedio ul li a span{
+	font-size:15px;
+	font-family:"微软雅黑";
+	line-height:29px;}
+
+.series-vedio ul li span a{
+	display:block;
+	text-decoration:none;
+	font-size:12px;
+	color:#999;
+	float:right;}
+
+.series-vedio ul li a:hover{
+	color:#9e9798;}
+
+
+
+#features
+{
+	width:1410px;
+	height:480px;
+	margin-left:auto;
+	margin-right:auto;}
+	
+	
+/*---------------------------版尾-------------------------------*/
+#buttom
+{
+	width:100%;
+	height:200px;
+	background-color:#333;
+}
+	.bottom-com
+	{
+		width:50%;
+		height:150px;
+		border:1px  pink;
+	
+		margin:30px auto auto auto;
+		font-family:"微软雅黑";
+		}
+	
+		.bottom-left
+		{
+			width:30%;
+			height:150px;
+			border:1px  pink;
+		    margin-top:25px;
+			text-align:center;
+			float:left;
+			font-size:14px;
+			}
+		
+			.bottom-middle
+			{
+				width:30%;
+				height:150px;
+				border:1px  pink;
+				margin-top:25px;
+				text-align:center;
+				float:left;
+				font-size:14px;
+				}
+				.bottom-right
+				{
+					width:39%;
+					height:150px;
+					border:1px  #0FF;
+					color:#fff;
+					margin-top:25px;
+					text-align:center;
+					float:left;
+					font-size:14px;
+					}
+					.bottom-left ul li a 
+					{ 
+
+						color:#fff; 
+						width:82px; 
+						height:30px;
+						line-height:30px;
+						text-decoration:none; 
+
+ 						}  
+						.bottom-left ul li a:hover 
+						{ 
+							color:#ffcd02; 
+							} 
+							.bottom-middle ul li a 
+							{ 
+
+								color:#fff;
+								text-decoration:none; 
+								width:82px; 
+								height:30px;
+								line-height:30px;
+
+ 								}  
+								.bottom-middle ul li a:hover 
+								{ 
+									color:#9e9798; 
+									} 

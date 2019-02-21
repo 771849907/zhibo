@@ -1,0 +1,136 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+#com
+{
+	width:100%;
+	height:auto;
+	background-color:＃F1FAFzA;
+	border:1px green;	
+    }
+#title
+{
+	width:100%;
+	height:38px;
+	background-color:#ffcd02;
+	/*background-color:#F9F0DA;*/
+	text-align:center;
+	
+    }
+#title-text
+{
+	float:left;
+	font-size:25px;
+	font-family:"Comic Sans MS", cursive;
+	margin-left:50px;
+	}
+#title-login
+{
+	float:right;
+	font-size:15px;
+	font-family:"宋体";
+	margin-right:50px;
+	margin-top:8px;
+  }
+#lender
+{
+	width:auto;
+	height:70px;
+	margin-top:20px;
+	background-color:#fff;
+	
+	
+  }
+#logo
+{
+	
+	float:left;
+	position:absolute;
+	margin-left:50px;
+	margin-top:-5px;
+	
+}
+/*.............................导航..........................*/
+#navigation
+{
+	width:400px;
+	height:60px;
+	margin:auto;
+	text-align:center;
+	background-color:#fff;
+	}
+	a
+	{
+		text-decoration:none;
+		color:#000;
+	}
+	 ul
+	{
+		list-style:none;/*去掉序列前面原点*/
+		}
+		#navigation li
+		{ 
+			float:left;
+			}
+				#navigation li a 
+				{ 
+					text-decoration:none;
+					line-height:60px;
+					color:#000; 
+					width:82px; 
+					font-family:"宋体";
+					font-size:18px;
+					margin-top:20px;
+					padding-left:40px; 
+					 } 
+			
+					#navigation li a.home, #navigation li a:hover
+					{
+					  color:#ffcd02;
+					  }
+
+/*.............................搜索..........................*/						 
+#search
+{
+	
+	 float:right;
+	 margin-right:50px;
+	 height:40px;
+	 width:200px;
+	 margin-top:-48px; 
+}
+
+ 
+#search input 
+{
+	width:200px;
+	height:30px;
+	border-radius:42px;
+	border:2px solid #324B4E;
+	background:#fff;
+	float:right;
+}
+#search input:focus
+{
+	width:250px;
+	background:#f3f3f3;
+}
+input,button
+{
+	border:none;
+	outline:none;
+}
+#search button
+{
+	border-radius:42px;
+	background:none;
+	float:right;
+	border:none;
+	margin-top:-32px;
+	margin-right:8px;
+	font-size:25px;	
+	cursor:pointer;
+}

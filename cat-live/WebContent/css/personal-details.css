@@ -1,0 +1,254 @@
+*{
+	padding:0;
+	margin:0;
+}
+#com
+{
+	width:100%;
+	height:auto;
+
+}
+ul{
+	list-style-type:none;}
+
+#head
+{
+	width:100%;
+	height:70px;
+	/*background-color:#ffd42d;*/
+	background-color:#000;
+	z-index:9998;
+}
+
+.logo{
+	width:134px;
+	height:50px;
+	margin-left:80px;
+	margin-top:6px;
+	float:left;
+}
+
+.nav{
+	width:160px;
+	height:40px;
+	float:left;
+	margin-left:180px;
+	margin-top:20px;}
+		
+.nav2 li
+{
+	float:left;
+	text-align:center;
+	position:relative;}
+
+.nav2 li a{
+	display:block;
+	text-decoration:none;
+	width:80px;
+	height:40px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	line-height:40px;
+
+	color:#fff;
+	/*background:#9e9798*/;}
+
+.nav2 a:hover{
+	color:#008040;
+	}
+	
+.nav2 li ul{
+	display:none; /*二级导航的样式*/
+    position:absolute; 
+    top:40px;
+    font-size:16px;}
+
+/*---------------------------搜索-------------------------------*/
+form {
+  position: relative;
+  width: 350px;
+}
+
+/*.search {background: #7BA7AB;}*/
+.search:after {content:""; clear:both; display:table}
+.search form {
+  width: auto;
+  float: left;
+  margin-left: 210px;
+  margin-top:23px;
+}
+.search input {
+  width: 300px;
+  height: 28px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.search input:focus {
+  width: 350px;
+}
+.search button {
+  width: 42px;
+  height: 30px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 1px;
+  right: 0;
+}
+.search button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+/*---------------------------登录-------------------------------*/
+.login{
+	width:42px;
+	height:42px;
+	position:absolute;
+	left:1380px;
+	top:15px;
+	
+	}
+	
+.login a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:15px;
+	color:#fff;}
+	
+.login a:hover{
+	color:#008040;}
+	
+
+
+/*---------------------------注册-------------------------------*/
+.register{
+	width:42px;
+	height:42px;
+	position:absolute;
+	left:1445px;
+	top:15px;
+	}
+	
+.register a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:15px;
+	color:#fff;}
+	
+.register a:hover{
+	color:#008040;}
+
+
+/*---------------------------个人信息-------------------------------*/
+#information{
+  margin:70px auto;
+	width:580px;
+	height:400px;
+
+	background:#f3f3f3;
+	padding:40px 40px 30px 20px;
+	box-shadow:rgba(187,187,187,1) 0px 0px 20px -1px;
+	-webkit-box-shadow:rgba(187,187,187,1) 0px 0px 20px -1px;
+	font:35px Arial, Helvetica, sans-serif; color:#666;
+	border-radius:10px;
+	-webkit-border-radius:10px;
+	// overflow:hidden;
+
+
+}
+#information h1
+{
+	font:30px "Trebuchet MS", Arial, Helvetica, sans-serif;
+	padding:0px 0px 10px 40px;
+	display:block;
+	border-bottom:1px solid #F5f5f5;
+	margin:-10px -30px 10px -30px;
+	color:#333;
+}
+#information a:hover
+{
+	color:#ffcd02
+}
+
+#information h1>span{
+	display:block;
+	font-size:20px;
+	color:#c4c2c2;
+}
+#information h1>img
+{
+	/*float:right;
+	width:80px;
+	height:80px;
+	overflow:hidden;
+	
+	border-radius:15px;*/
+	margin-right:-220px;
+	margin-top:-150px;
+	display:inline-block;
+     width:130px;
+                              height:130px;
+                              border-radius:50%;
+                              overflow:hidden;
+}
+#information label{
+	dispaly:block;
+
+	/*<!--margin:50px 0px 5px 5px;-->*/
+
+}
+#information label>span
+{
+	text-align:center;
+	width:50%;
+	margin-top:30px;
+
+    color:#333;
+	font-size:22.5px;
+	margin-left:10px;
+	font-family:"宋体";
+}
+
+
+#information img
+{
+	float:right;
+	margin-top:30px;
+	margin-right:-200px;
+
+}
+#information  a:hover img
+{
+	background-image:url(../img/%E7%94%A8%E6%88%B7.png) no-repeat;
+	height:39px;
+	width:42px;
+
+
+}
+#information input[type="text"],#information input[type="email"],#information select{
+	color:#555;
+	width:70%;
+/*	padding 3px 0px 3px 5px;*/
+	margin-top:8px;
+	margin-right:6px;
+	border:1px solid #e5e5e5;
+	background:#fbfbfb;
+
+	height:40px;;
+	/*line-height:50px;*/
+	outline:0;
+
+	-webkit-box-shadow:inset 1px 1px 2px rgba(200,200,200,0.2);
+
+}

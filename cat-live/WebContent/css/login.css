@@ -1,0 +1,146 @@
+/* CSS Document */
+
+#com
+{
+	width:100%;
+	height:auto;
+	background-color:＃F1FAFzA;
+	border:1px green;
+	position:absolute;	
+	z-index:1;
+	opacity:0.25;
+    }
+/*..................................................登录界面....................................................................................................... */
+
+#login-in
+{
+	width:680px;
+	height:550px;
+	border:1px solid #000;
+	margin:80px auto 0 500px;
+	
+	position:absolute;
+	background:#f3f3f3;
+	z-index:2;
+}
+a
+{
+	text-decoration:none;
+	}
+.return-page
+{
+	width:680px;
+	height:30px;
+	background:#333;
+	
+}
+.return-home
+{
+	height:30px;
+	width:30px;
+	font-size:36px;
+	float:right;
+}
+.return-home a
+{
+	color:#fff;
+}
+.return-home a:hover
+{
+	color:#ffcd02;;
+}
+	.main_nav 
+	{
+		width:680px; 
+		height:50px; 
+		background:#333;
+		
+		}
+			
+			.main_nav li
+			{	
+				width:50%;
+				height:40px;
+				float:left; 
+				font-size:20px;
+				
+				text-align:center;
+				
+				margin-top:10px;
+					}
+						.main_nav li a
+						{
+							color:#fff;
+							
+							}
+							.main_nav li a:hover
+							{
+								color:#ffcd02;;
+								}
+								
+									.cd-form
+									{
+										width:520px;
+										height:620px;
+										border:1px  red;
+										margin:20px auto auto auto;
+										
+									}
+										#signin-username
+										{
+											width:420px;
+											height:60px;
+										margin-left:45px;
+										margin-top:20px;
+										}
+											#signin-password
+											{
+												width:420px;
+											height:60px;
+										margin-left:45px;
+										margin-top:30px;
+											}
+								#remember-me
+								{
+									margin-top:30px;
+									margin-left:45px;
+									
+									
+									
+								}
+								.full-width2
+									{
+										width:420px;
+											height:50px;
+										margin-top:30px;
+										margin-left:45px;
+										color:#333;
+									}
+									.full-width3
+									{
+										width:420px;
+											height:50px;
+										margin-top:30px;
+										margin-left:45px;
+										color:#333;
+									}
+									/*.fieldset input[type="submit"],.fieldset input[type="reset"]
+									{
+										width:70px;
+										height:30px;
+										margin-top:30px;
+										margin-left:85px;
+										color:#333;
+										cursor:pointer;
+										
+									}*/
+									.fieldset a:hover .full-width2  
+									{
+										background-color:#ffcd02;
+										cursor:pointer;
+									}
+									.fieldset a:hover .full-width3 
+									{
+										background-color:#ffcd02;
+										cursor:pointer;
+									}

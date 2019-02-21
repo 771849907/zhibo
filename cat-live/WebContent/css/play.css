@@ -1,0 +1,494 @@
+@charset "utf-8";
+/* CSS Document */
+
+*{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style-type:none;}
+#head
+{
+	width:100%;
+	height:70px;
+	background-color:#9e9798;
+	}
+	
+.logo{
+	width:134px;
+	height:50px;
+	margin-left:150px;
+	margin-top:6px;
+	float:left;}
+
+/*---------------------------导航-------------------------------*/
+.nav{
+	width:160px;
+	height:40px;
+	float:left;
+	margin-left:120px;
+	margin-top:20px;}
+		
+.nav2 li
+{
+	float:left;
+	text-align:center;
+	position:relative;}
+
+.nav2 li a{
+	display:block;
+	text-decoration:none;
+	width:80px;
+	height:40px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	line-height:40px;
+	/*border:1px solid #fff;*/
+	color:#000;
+	background:#9e9798;}
+
+.nav2 a:hover{
+	color:#fff;
+	background:}
+	
+.nav2 li ul{
+	display:none; /*二级导航的样式*/
+    position:absolute; 
+    top:30px;
+    font-size:16px;}
+
+/*---------------------------搜索-------------------------------*/
+form {
+  position: relative;
+  width: 350px;
+}
+
+/*.search {background: #7BA7AB;}*/
+.search:after {content:""; clear:both; display:table}
+.search form {
+  width: auto;
+  float: left;
+  margin-left: 200px;
+  margin-top:23px;
+}
+.search input {
+  width: 300px;
+  height: 28px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.search input:focus {
+  width: 350px;
+}
+.search button {
+  width: 42px;
+  height: 30px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 1px;
+  right: 0;
+}
+.search button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+/*---------------------------登录-------------------------------*/
+.login{
+	width:40px;
+	height:42px;
+	/*background:#CF3;*/
+	/*float:left;
+	margin-left:200px;
+	margin-top:10px;*/
+	position:absolute;
+	left:1450px;
+	top:15px;
+	
+	}
+	
+.login a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#000;}
+	
+.login a:hover{
+	color:#fff;}
+	
+
+
+/*---------------------------注册-------------------------------*/
+.register{
+	width:35px;
+	height:42px;
+	position:absolute;
+	left:1492px;
+	top:15px;
+	}
+	
+.register a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:"宋体";
+	font-size:12px;
+	color:#000;}
+	
+.register a:hover{
+	color:#fff;}
+
+/*---------------------------个人信息-------------------------------*/
+/*.personal{
+	width:50px;
+	height:42px;
+	position:absolute;
+	left:1768px;
+	top:15px;
+	}
+	
+.personal a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#000;}
+	
+.personal a:hover{
+	color:#fff;}*/
+	
+#content{
+	width:100%;
+	height:2987px;
+	background:#f2f2f2;
+	position:absolute;
+	top:70px;
+	left:50%;
+	margin-left:-50%;}
+	
+	
+/*---------------------------主播介绍-------------------------------*/
+
+
+#Introduction{
+	width:70%;
+	height:100px;
+	margin-left:5.5%;
+	margin-top:10px;
+	background-color:#fff;
+	float:left;}
+	
+.Anchor-img{
+	width:80px;
+	height:80px;
+	border-radius:40px 40px 40px 40px;
+	position:absolute;
+	top:20px;
+	left:7%;
+	}
+.Anchor-name{
+	width:500px;
+	height:70px;
+	/*background-color:#009;*/
+	position:absolute;
+	top:30px;
+	left:12%;}
+	
+.title{
+	font-family:"微软雅黑";
+	font-size:25px;
+	float:left;}
+	
+.Anchor-name a{
+	width:400px;
+	height:15px;
+	display:block;
+	text-decoration:none;
+	font-family:"微软雅黑";
+	font-size:14px;
+	line-height:15px;
+	/*background-color:#09C;*/
+	margin-top:10px;
+	float:left;}
+	
+.red{
+	display:block;
+	width:40px;
+	height:16px;
+	font-size:12px;
+	color:#f34c7b;
+	text-align:center;
+	line-height:16px;
+	background-color:#faccd9;
+	margin-top:1px;
+	float:left;
+	border-radius:4px 4px 4px 4px;}
+	
+.green{
+	color:#090;
+	width:70px;
+	height:14px;
+	line-height:14px;}
+
+.blue{
+	display:block;
+	background-color:#36C;
+	width:150px;
+	height:28px;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#fff;
+	line-height:28px;
+	margin-top:2px;
+	border-radius:4px 4px 4px 4px;
+	float:left;}
+
+.time{
+	display:block;
+	width:100px;
+	height:20px;
+	font-family:"微软雅黑";;
+	font-size:14px;
+	color:#fff;
+	line-height:20px;
+	text-align:center;
+	background:#d15dcd;
+	margin-left:10px;
+	margin-top:10px;
+	border-radius:4px 4px 4px 4px;
+	float:left;}
+	
+	
+.other{
+	width:370px;
+	height:30px;
+	position:absolute;
+	top:70px;
+	right:25%;
+	/*background:#963;*/
+	float:right;}
+.img{
+	display:block;
+	width:20px;
+	height:28px;
+	margin-bottom:2px;
+	float:left;}
+.word{
+	display:block;
+	width:50px;
+	height:28px;
+	/*background-color:#633;*/
+	color:#999;
+	font-family:"微软雅黑";
+	font-size:14px;
+	line-height:28px;
+	margin-top:2px;
+	float:left;
+	}
+	
+	
+/*---------------------------直播视频-------------------------------*/
+#video{
+	width:70%;
+	height:700px;
+	background-color:#000;
+	margin-top:10px;
+	margin-left:5.5%;
+	float:left;}
+
+
+
+/*---------------------------榜单-------------------------------*/
+#series{
+	width:300px;
+	height:808px;
+	background-color:#ececec;
+	border:1px solid #e2dcdc;
+	position:absolute;
+	top:10px;
+	right:5.5%;}
+	
+.nav-series{
+	width:300px;
+	height:30px;
+	border-bottom:1px solid #e2dcdc;
+	}
+
+.fan-series a{
+	display:block;
+	text-decoration:none;
+	width:75px;
+	height:30px;
+	background-color:#f57e7e;
+	font-family:"微软雅黑";
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+	color:#fff;
+	float:left;}
+	
+.nav-series a{
+	display:block;
+	text-decoration:none;
+	width:75px;
+	height:30px;
+	background-color:#f0f3ef;
+	font-family:"微软雅黑";
+	font-size:14px;
+	text-align:center;
+	line-height:30px;
+	color:#000;
+	float:left;}
+	
+.series-anchor{
+	width:300px;
+	height:80px;
+	background-color:#f57e7e;}
+
+.series-img{
+	display:block;
+	width:60px;
+	height:60px;
+	position:absolute;
+	top:40px;
+	left:10px;}
+	
+.series-Anchor-intro{
+	width:200px;
+	height:60px;
+	position:absolute;
+	top:40px;
+	left:80px;}
+	
+.fan{
+	display:block;
+	width:200px;
+	height:30px;
+	font-family:"微软雅黑";
+	font-size:16px;
+	line-height:30px;
+	color:#fff;
+	float:left;}
+	
+.series-Anchor-name{
+	display:block;
+	width:48px;
+	height:20px;
+	background:#F3C;
+	font-family:"微软雅黑";
+	font-size:14px;
+	text-align:center;
+	line-height:20px;
+	color:#FFF;
+	border-radius:4px 4px 4px 4px;
+	float:left;}
+	
+.fan-sum{
+	width:300px;
+	height:55px;
+	background-color:#CC6;}
+	
+.fan-sum a{
+	display:block;
+	text-decoration:none;
+	width:99px;
+	height:55px;
+	background:#3CF;
+	border-right:1px #fff solid;
+	float:left;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:25px;
+	color:#fff;
+	background-color:#f57e7e; }
+.size{
+	font-size:12px;}
+
+.week-series{
+	display:block;
+	width:99.5px;
+	height:55px;
+	font-family:"微软雅黑";
+	font-size:25px;
+	color:#fff;
+	text-align:center;
+	float:left;
+	background-color:#f57e7e;}
+	
+.send{
+	width:300px;
+	height:80px;
+	margin-top:561px;
+	background-color:#f0f3ef;}
+
+.send input{
+	width:180px;
+	height:40px;
+	margin-left:30px;
+	margin-top:20px;
+	font-size:14px;}
+	
+button{
+	width:50px;
+	height:44px;}
+	
+.personal{
+	width:89%;
+	height:2150px;
+	background-color:#fff;
+	position:absolute;
+	top:835px;
+	left:50%;
+	margin-left:-44.5%;}
+	
+.personal-intro{
+	width:80.5%;
+	height:500px;}
+	
+.live-details{
+	width:95%;
+	height:40px;
+	font-family:"微软雅黑";
+	font-size:25px;
+	line-height:40px;
+	/*text-align:center;*/
+	margin-top:15px;
+	margin-left:55px;
+	border-bottom:3px solid #393;}
+
+.details{
+	width:500px;
+	height:300px;
+	/*background-color:#39C;*/
+	margin-top:20px;
+	margin-left:auto;
+	margin-right:auto;
+	font-family:"微软雅黑";
+	font-size:16px;
+	text-align:center;
+	line-height:30px;}
+
+.live-time{
+	color:#F00;
+	font-size:20px;}
+	
+.yello{
+	color:#facb58;}
+
+.personal-show{
+	width:1000px;
+	height:1684px;
+	background-color:#309;
+	margin-left:auto;
+	margin-right:auto;}

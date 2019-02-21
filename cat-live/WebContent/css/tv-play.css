@@ -1,0 +1,506 @@
+/* CSS Document */
+*{
+	padding:0;
+	margin:0;
+}
+#com{
+	width:100%;
+	height:auto;
+	border:1px solid green;
+}
+
+ul{
+	list-style-type:none;}
+	
+#head
+{
+	width:100%;
+	height:70px;
+	/*background-color:#ffd42d;*/
+	background-color:#9e9798;
+	z-index:9998;
+}
+	
+.logo{
+	width:134px;
+	height:50px;
+	margin-left:250px;
+	margin-top:6px;
+	float:left;}
+	
+.nav{
+	width:160px;
+	height:40px;
+	float:left;
+	margin-left:120px;
+	margin-top:20px;}
+	
+
+	
+.nav2 li
+{
+	float:left;
+	text-align:center;
+	position:relative;}
+
+.nav2 li a{
+	display:block;
+	text-decoration:none;
+	width:80px;
+	height:40px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	line-height:40px;
+	/*border:1px solid #fff;*/
+	color:#000;
+	background-color:#9e9798;}
+
+.nav2 a:hover{
+	color:#fff;
+	background:}
+	
+.nav2 li ul{
+	display:none; /*二级导航的样式*/
+    position:absolute; 
+    top:30px;
+    font-size:16px;}
+
+/*---------------------------搜索-------------------------------*/
+form {
+  position: relative;
+  width: 350px;
+}
+
+/*.search {background: #7BA7AB;}*/
+.search:after {content:""; clear:both; display:table}
+.search form {
+  width: auto;
+  float: left;
+  margin-left: 200px;
+  margin-top:23px;
+}
+.search input {
+  width: 300px;
+  height: 28px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.search input:focus {
+  width: 350px;
+}
+.search button {
+  width: 42px;
+  height: 30px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 1px;
+  right: 0;
+}
+.search button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+/*---------------------------登录-------------------------------*/
+.login{
+	width:40px;
+	height:42px;
+	position:absolute;
+	left:1450px;
+	top:15px;
+	
+	}
+	
+.login a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#000;}
+	
+.login a:hover{
+	color:#fff;}
+	
+
+
+/*---------------------------注册-------------------------------*/
+.register{
+	width:35px;
+	height:42px;
+	position:absolute;
+	left:1492px;
+	top:15px;
+	}
+	
+.register a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:"宋体";
+	font-size:12px;
+	color:#000;}
+	
+.register a:hover{
+	color:#fff;}
+	
+#video-com{
+	width:95%;
+	height:auto;
+	margin:30px auto auto auto;
+	border:1px black;
+}
+#top{
+	width:100%;
+	height:660px;
+	border:1px  black;
+		background-color:#f3f3f3;
+	}
+#left{
+	width:73%;
+	height:660px;
+	/*background-color:red;*/
+	float:left;
+}
+#video{
+	width:100%;
+	height:550px;
+	background-color:#0C6;
+	float:left;
+}
+#information{
+	width:24%;
+	height:650px;
+	float:right;
+	font-family:"宋体";
+/*	background-color:#fff;*/
+}
+.one{
+	border-radius:10px;
+	background-color:#ffcd02;
+}
+input{																								width:52px;																							height:52px;																							background:#FFF;																																														margin-top:10px;
+cursor:pointer;
+
+
+}
+input:hover
+{
+	border-radius:10px;
+	background-color:#ffcd02;
+}
+#text{
+	width:100%;
+	height:92px;
+/*	background-color:#fff;*/
+	margin-top:8px;
+	float:left;
+	font-size:30px;
+	font-family:"宋体";
+}
+/*相关演员*/
+.chuqiaozhuan-actor{
+	width:100%;
+	height:120px;
+	border:1px  red;
+	margin-top:30px;
+	font-family:"宋体";
+}
+.relative-actor{
+	width:10%;
+	height:50px;
+	background-color:#fff;
+	float:left;
+	margin-top:30px;
+	font-size:30px;
+}
+.zhaoliying{
+	width:14%;
+	height:120px;
+	background-color:#fff;
+	float:left;
+	margin-left:90px;
+}
+.lingengxin{
+	width:14%;
+	height:120px;
+	background-color:#fff;
+	float:left;
+	margin-left:90px;
+}
+.liqin{
+	width:14%;
+	height:120px;
+	background-color:#fff;
+	float:left;
+	margin-left:90px;
+}
+.douxiao{
+	width:14%;
+	height:120px;
+	background-color:#fff;
+	float:left;
+	margin-left:90px;
+}
+.chuqiaozhuan-actor img{
+	border-radius:100px;
+}
+.more{
+	float:right;
+	margin-top:80px;
+}
+.more:hover
+{
+	color:#ffcd02;
+	cursor:pointer;
+}
+/*相关作品*/
+.actors-related-works
+				{
+					
+					margin-top:50px;
+				font-family:"宋体";
+					font-size:30px;
+					}
+.related-works
+	{
+		width:100;
+		height:1750px;
+		border:1px  red;
+		background:#f3f3f3;
+		margin-top:10px;
+		
+
+		}
+		a
+		{
+			text-decoration:none;
+			color:#000;
+			font-size:18px;
+		}
+.zhaoliying-works-A
+						{
+							width:250px;
+							height:390px;
+							background:#fff;
+							float:left;
+							text-align:center;
+							font-family:"宋体";
+							margin-left:4.2px;
+							}
+								
+.zhaoliying-works-B
+											{
+												width:250px;
+												height:390px;
+												background:#fff;
+												float:left;
+												margin-left:60px;
+												text-align:center;
+												font-family:"宋体";
+												
+													}
+								          				.zhaoliying-works-C
+														{
+															width:250px;
+															height:390px;
+															background:#fff;
+															float:left;
+															margin-left:60px;
+															text-align:center;
+															font-family:"宋体";
+															}
+																.zhaoliying-works-D
+																{
+																	width:250px;
+																	height:390px;
+																	background:#fff;
+																	float:left;
+																	margin-left:60px;
+																	text-align:center;
+																	font-family:"宋体";
+																		}
+																		.zhaoliying-works-E
+																{
+																	width:250px;
+																	height:390px;
+																	background:#fff;
+																	float:left;
+																	margin-left:60px;
+																	text-align:center;
+																	font-family:"宋体";
+																		}
+					.lingengxin-works-A
+						{
+							width:250px;
+							height:390px;
+							background:#fff;
+							float:left;
+							text-align:center;
+							font-family:"宋体";
+							margin-left:4.2px;
+							margin-top:40px;
+							}
+											.lingengxin-works-B
+											{
+												width:250px;
+												height:390px;
+												background:#fff;
+												float:left;
+												margin-left:60px;
+												text-align:center;
+												font-family:"宋体";
+												margin-top:40px;
+													}
+								          				.lingengxin-works-C
+														{
+															width:250px;
+															height:390px;
+															background:#fff;
+															float:left;
+															margin-left:60px;
+															text-align:center;
+															font-family:"宋体";
+															margin-top:40px;
+															}
+																.lingengxin-works-D
+																{
+																	width:250px;
+																	height:390px;
+																	background:#fff;
+																	float:left;
+																	margin-left:60px;
+																	text-align:center;
+																	font-family:"宋体";
+																	margin-top:40px;
+																		}
+																		.lingengxin-works-E
+																{
+																	width:250px;
+																	height:390px;
+																	background:#fff;
+																	float:left;
+																	margin-left:60px;
+																	text-align:center;
+																	font-family:"宋体";
+																	margin-top:40px;
+																		}
+	.liqin-works-A
+						{
+							width:250px;
+							height:390px;
+							background:#fff;
+							float:left;
+							text-align:center;
+							font-family:"宋体";
+							margin-left:4.2px;
+							margin-top:40px;
+							}
+											.liqin-works-B
+											{
+												width:250px;
+												height:390px;
+												background:#fff;
+												float:left;
+												margin-left:60px;
+												text-align:center;
+												font-family:"宋体";
+												margin-top:40px;
+													}
+								          				.liqin-works-C
+														{
+															width:250px;
+															height:390px;
+															background:#fff;
+															float:left;
+															margin-left:60px;
+															text-align:center;
+															font-family:"宋体";
+															margin-top:40px;
+															}
+																.liqin-works-D
+																{
+																	width:250px;
+																	height:390px;
+																	background:#fff;
+																	float:left;
+																	margin-left:60px;
+																	text-align:center;
+																	font-family:"宋体";
+																	margin-top:40px;
+																		}
+																		.liqin-works-E
+																{
+																	width:250px;
+																	height:390px;
+																	background:#fff;
+																	float:left;
+																	margin-left:60px;
+																	text-align:center;
+																	font-family:"宋体";
+																	margin-top:40px;
+																		}
+																		
+.douxiao-works-A
+						{
+							width:250px;
+							height:390px;
+							background:#fff;
+							float:left;
+							text-align:center;
+							font-family:"宋体";
+							margin-left:4.2px;
+							margin-top:40px;
+							}
+											.douxiao-works-B
+											{
+												width:250px;
+												height:390px;
+												background:#fff;
+												float:left;
+												margin-left:60px;
+												text-align:center;
+												font-family:"宋体";
+												margin-top:40px;
+													}
+								          				.douxiao-works-C
+														{
+															width:250px;
+															height:390px;
+															background:#fff;
+															float:left;
+															margin-left:60px;
+															text-align:center;
+															font-family:"宋体";
+															margin-top:40px;
+															}
+																.douxiao-works-D
+																{
+																	width:250px;
+																	height:390px;
+																	background:#fff;
+																	float:left;
+																	margin-left:60px;
+																	text-align:center;
+																	font-family:"宋体";
+																	margin-top:40px;
+																		}
+																		.douxiao-works-E
+																{
+																	width:250px;
+																	height:390px;
+																	background:#fff;
+																	float:left;
+																	margin-left:60px;
+																	text-align:center;
+																	font-family:"宋体";
+																	margin-top:40px;
+																		}
+																		

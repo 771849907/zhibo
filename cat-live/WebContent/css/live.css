@@ -1,0 +1,384 @@
+*{
+	padding:0;
+	margin:0;
+}
+ul{
+	list-style-type:none;}
+	
+#head
+{
+	width:100%;
+	height:70px;
+	/*background-color:#ffd42d;*/
+	background-color:#9e9798;
+	z-index:9998;
+	position:fixed;}
+	
+.logo{
+	width:134px;
+	height:50px;
+	margin-left:150px;
+	margin-top:6px;
+	float:left;}
+	
+.nav{
+	width:160px;
+	height:40px;
+	float:left;
+	margin-left:120px;
+	margin-top:20px;}
+	
+
+	
+.nav2 li
+{
+	float:left;
+	text-align:center;
+	position:relative;}
+
+.nav2 li a{
+	display:block;
+	text-decoration:none;
+	width:80px;
+	height:40px;
+	font-family:"微软雅黑";
+	font-size:18px;
+	line-height:40px;
+	/*border:1px solid #fff;*/
+	color:#000;
+	background-color:#9e9798;}
+
+.nav2 a:hover{
+	color:#fff;
+	background:}
+	
+.nav2 li ul{
+	display:none; /*二级导航的样式*/
+    position:absolute; 
+    top:30px;
+    font-size:16px;}
+
+/*---------------------------搜索-------------------------------*/
+form {
+  position: relative;
+  width: 350px;
+}
+
+/*.search {background: #7BA7AB;}*/
+.search:after {content:""; clear:both; display:table}
+.search form {
+  width: auto;
+  float: left;
+  margin-left: 200px;
+  margin-top:23px;
+}
+.search input {
+  width: 300px;
+  height: 28px;
+  padding-left: 15px;
+  border-radius: 42px;
+  border: 2px solid #324b4e;
+  background: #F9F0DA;
+  outline: none;
+  position: relative;
+  transition: .3s linear;
+}
+.search input:focus {
+  width: 350px;
+}
+.search button {
+  width: 42px;
+  height: 30px;
+  background: none;
+  border: none;
+  position: absolute;
+  top: 1px;
+  right: 0;
+}
+.search button:before{
+  content: "\f002";
+  font-family: FontAwesome;
+  color: #324b4e;
+}
+
+/*---------------------------登录-------------------------------*/
+.login{
+	width:40px;
+	height:42px;
+	position:absolute;
+	left:1450px;
+	top:10px;
+	
+	}
+	
+.login a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:"微软雅黑";
+	font-size:12px;
+	color:#000;}
+	
+.login a:hover{
+	color:#fff;}
+	
+
+
+/*---------------------------注册-------------------------------*/
+.register{
+	width:35px;
+	height:42px;
+	position:absolute;
+	left:1492px;
+	top:10px;
+	}
+	
+.register a{
+	display:block;
+	text-decoration:none;
+	text-align:center;
+	font-family:"宋体";
+	font-size:12px;
+	color:#000;}
+	
+.register a:hover{
+	color:#fff;}
+	
+	
+#live-box
+{
+	width:1710px;
+	height:1195px;
+	position:absolute;
+	top:70px;
+	left:50%;
+	margin-left:-855px;
+	/*background:#009;*/}
+	
+	
+/*---------------------------游戏直播-------------------------------*/
+#game-live{
+	width:1410px;
+	height:480px;
+	/*background-color:#096;*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:30px;}
+	
+.title{
+	width:1410x;
+	height:30px;
+	/*background-color:#633;*/
+	font-size:23px;
+	text-align:left;
+	}
+	
+.title a{
+	width:30px;
+	height:20px;
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#666;
+	margin-left:15px;
+	margin-top:10px;}
+	
+.title span a{
+	width:30px;
+	height:20px;
+	/*background:#666;*/
+	font-family:"微软雅黑";
+	font-size:14px;
+	color:#666;
+	float:right;
+	margin-right:20px;
+	margin-top:10px;
+	}
+	
+.game-live-vedio ul li{
+	float:left;
+	width:218px;
+	height:180px;
+	margin-left:14px;
+	margin-top:20px;
+	background:#FFF;}
+
+.game-live-vedio ul li a{
+	display:block;
+	text-decoration:none;
+	width:218px;
+	height:180px;
+	font-family:"微软雅黑";
+	font-size:13px;
+	color:#000;
+	overflow:hidden;}
+	
+.game-live-vedio ul li a:hover{
+	color:#9e9798;}
+	
+.game{
+	color:#e68614;
+	float:right;}
+
+.live-user{
+	float:left;
+	color:#999;
+	line-height:20px;}
+	
+.live-vedio img{
+	cursor:pointer;
+	transition:all 0.6s;}
+.live-vedio img:hover{
+	transform:scale(1.08);	}
+	
+/*---------------------------二次元-------------------------------*/
+
+#cosplay-live{
+	width:1410px;
+	height:280px;
+	/*background-color:#096;*/
+	margin-left:auto;
+	margin-right:auto;}
+	
+	
+.cosplay-live-vedio ul li{
+	float:left;
+	width:218px;
+	height:180px;
+	margin-left:14px;
+	margin-top:20px;
+	background:#FFF;}
+
+.cosplay-live-vedio ul li a{
+	display:block;
+	text-decoration:none;
+	width:218px;
+	height:180px;
+	font-family:"微软雅黑";
+	font-size:13px;
+	color:#000;
+	overflow:hidden;}
+	
+.cosplay-live-vedio ul li a:hover{
+	color:#9e9798;}
+	
+.game{
+	color:#e68614;
+	float:right;}
+	
+	
+/*---------------------------美女主播-------------------------------*/
+#TV{
+	width:1410px;
+	height:365px;
+	/*background:#096;*/
+	margin-left:auto;
+	margin-right:auto;}
+
+
+	
+.TV-vedio ul li{
+	float:left;
+	width:186px;
+	height:265px;
+	margin-left:14px;
+	margin-top:20px;}
+	
+.TV-vedio ul li a{
+	display:block;
+	text-decoration:none;
+	width:186px;
+	height:240px;
+	font-family:"微软雅黑";
+	font-size:13px;
+	color:#000;}
+
+
+	
+.TV-vedio ul li a span{
+	font-size:15px;
+	font-family:"微软雅黑";
+	line-height:29px;}
+	
+.red{
+	color:#ec5f5f;}
+	
+	
+/*---------------------------版尾-------------------------------*/
+#buttom
+{
+	width:100%;
+	height:200px;
+	background-color:#333;
+	position:absolute;
+	top:1195px;
+}
+	.bottom-com
+	{
+		width:50%;
+		height:150px;
+		border:1px  pink;
+	
+		margin:30px auto auto auto;
+		font-family:"微软雅黑";
+		}
+	
+		.bottom-left
+		{
+			width:30%;
+			height:150px;
+			border:1px  pink;
+		    margin-top:25px;
+			text-align:center;
+			float:left;
+			font-size:14px;
+			}
+		
+			.bottom-middle
+			{
+				width:30%;
+				height:150px;
+				border:1px  pink;
+				margin-top:25px;
+				text-align:center;
+				float:left;
+				font-size:14px;
+				}
+				.bottom-right
+				{
+					width:39%;
+					height:150px;
+					border:1px  #0FF;
+					color:#fff;
+					margin-top:25px;
+					text-align:center;
+					float:left;
+					font-size:14px;
+					}
+					.bottom-left ul li a 
+					{ 
+
+						color:#fff; 
+						width:82px; 
+						height:30px;
+						line-height:30px;
+						text-decoration:none; 
+
+ 						}  
+						.bottom-left ul li a:hover 
+						{ 
+							color:#ffcd02; 
+							} 
+							.bottom-middle ul li a 
+							{ 
+
+								color:#fff;
+								text-decoration:none; 
+								width:82px; 
+								height:30px;
+								line-height:30px;
+
+ 								}  
+								.bottom-middle ul li a:hover 
+								{ 
+									color:#9e9798; 
+									} 
